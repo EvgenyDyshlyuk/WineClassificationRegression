@@ -28,4 +28,5 @@
   simple LinearRegression was used as a second level model (no HPO for second level)
 
 ### Comments:
-- The "output/models" folder is added to .gitignore because some of the results of the HPO are more than 100 MB, which exceeding GitHub limits
+- The "output" folder is added to .gitignore because some of the results of the HPO are more than 100 MB, exceeding GitHub limits
+- The "output" folder has 4 subfolders: models, data, predictions, submissions
